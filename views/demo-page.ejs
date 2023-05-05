@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-color: bisque;
+        }
+        #form{
+            margin-top: 100px;
+            /* display: flex; */
+            /* flex-direction: row; */
+            background-color: white;
+            border: 1px solid lightcoral;
+            width: 400px;
+            height: 400px;
+        }
+        
+        .heading{
+            margin-top: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .inputs{
+            margin-top: 70px;
+            margin-left: 100px;
+        }
+        .btn{
+            margin-top: 14px;
+            margin-left: 104px;
+            width: 160px;
+            cursor: pointer;
+            background-color: lightblue;
+            color: black;
+            border-radius: 1rem;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <main>
+        <form  method="post" id="form" method="post">
+            <h2 class="heading">Log in</h2>
+            <div class="inputs">
+                <div>
+                    email : <input type="text" name="email" class="form-input" placeholder="email" id="">
+                </div>
+                <div>
+                    password : <input type="text" name="password" class="form-input" placeholder="password" id="">
+                </div>
+            </div>
+            <div class="button-icon" >
+                <button class="btn">Login</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
